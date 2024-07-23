@@ -54,7 +54,7 @@ public class ToolFunction
         using var http = new HttpClient();
 
         var url =
-            $"https://api.seniverse.com/v3/weather/hourly.json?key=SqskMHsGbF6Ctge2D&location={city}&language=zh-Hans&unit=c&start=0&hours=24";
+            $"https://api.seniverse.com/v3/weather/hourly.json?key=请前往心知天气官网获取ApiKey&location={city}&language=zh-Hans&unit=c&start=0&hours=24";
 
         var response = await http.GetAsync(url);
 
